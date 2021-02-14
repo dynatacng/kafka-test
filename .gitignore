@@ -4,6 +4,7 @@
 *.dll
 *.so
 *.dylib
+*.tgz
 
 # Test binary, built with `go test -c`
 *.test
@@ -13,3 +14,12 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+.vscode/
+.envrc
+.zshrc
+.DS_Store
+.idea/
+output/
+package-lock.json
+dist/
+kafka-2.7.0-src/
